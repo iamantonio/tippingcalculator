@@ -6,11 +6,9 @@ class Total extends Component {
     this.props.inputChange(event);
   };
 
-  c
-
   render() {
     return (
-      <span style={{padding: 10}} className={`fields`}>
+      <span style={{ padding: 10 }} className={`fields`}>
         <div className={`two wide`}>
           <input
             type="text"

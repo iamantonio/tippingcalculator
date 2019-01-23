@@ -1,7 +1,8 @@
 export default function calculate(amnt, percentButton) {
   if (percentButton === "Reset") {
     return {
-      value: ''
+      value: '',
+      tip: ''
     };
   }
   if (percentButton === "10%") {
